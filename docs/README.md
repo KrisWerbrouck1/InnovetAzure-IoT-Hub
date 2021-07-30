@@ -928,3 +928,5 @@ rekenblad.
 ![Node-RED](./assets/335cfcbfc44bfa4360e3d7552ce3f822.png)
 
 Het CSV-bestand kan vervolgens geopend worden in een rekenblad.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c71cd9bb-bd58-4f65-942c-a342e7ff1f1a/deploy-status)](https://app.netlify.com/sites/innovet-iot-hub/deploys)
