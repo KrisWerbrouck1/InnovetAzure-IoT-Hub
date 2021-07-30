@@ -44,11 +44,9 @@ beschikken. Via een portal krijgt de gebruiker toegang tot de nodige servers.
 Meer uitleg over cloud computing kan je nalezen op
 <https://www.true.nl/blog/wat-is-azure/>
 
-## De portal van de azure cloud omgeving.
+## Portal azure cloud
 
 ![Portal](./assets/494f5fcf240aa25b26d446e022ca77ce.png)
-
-Figuur 1: Azure portal
 
 Er zijn een aantal modellen mogelijk. Zowel SaaS, Paas en IaaS zijn mogelijk met
 Azure
@@ -68,12 +66,12 @@ Dit cloudservicemodel komt het dichtst in de buurt van het beheren van fysieke s
 Dit cloudservicemodel is een beheerde hostingomgeving. De cloudprovider beheert de virtuele machines en netwerkresources en de gebruiker implementeert de bijbehorende toepassingen in de beheerde hostingomgeving. 
 
 ### SaaS
-In dit cloudservicemodel beheert de cloudprovider alle aspecten van de toepassingsomgeving, zoals virtuele machines, netwerkresources, gegevensopslag en toepassingen. De gebruiker hoeft alleen maar de gegevens op te geven bij de toepassing die door de cloudprovider wordt beheerd.                                                                                                                                                                                                 |
+In dit cloudservicemodel beheert de cloudprovider alle aspecten van de toepassingsomgeving, zoals virtuele machines, netwerkresources, gegevensopslag en toepassingen. De gebruiker hoeft alleen maar de gegevens op te geven bij de toepassing die door de cloudprovider wordt beheerd.                                                                                                                                                                          
+In deze cursus gebruiken we IOT Hub wat Platform as a Service is. De visualisatie verloopt via Node-RED op een raspberry pi.
 
-In deze cursus gebruiken we IOT Hub wat Platform as a Service is. De
-visualisatie verloopt via Node-RED op een raspberry pi.
+![Azure IoT-Hub](./assets/AzureIoTHub.png)
 
-# Registratie Azure
+## Registratie Azure
 
 Een gratis studentenaccount kan aangemaakt worden op
 <https://azure.microsoft.com/nl-nl/free/students/>
@@ -88,7 +86,7 @@ Vul je telefoonnummer in als verificatie.
 
 ![Registratie](./assets/2732bef4b83dadd26be838012d396e03.png)
 
-Registreer je
+Registreer je.
 
 ![Registratie](./assets/74ab47a78c5de8598fba159945c342e5.png)
 
@@ -101,7 +99,7 @@ Ga akkoord met de voorwaarden.
 Wanneer je iets wil maken in Azure (IoT-Hub, IoT-Central, database, …) moet je
 eerst een resource groep aanmaken om alles in te bewaren.
 
-Kies + Een resource maken
+Kies + Een resource maken.
 
 ![ResourceGroep](./assets/cb91768b6e0b4b6cc18e4d624a823e99.png)
 
@@ -109,7 +107,7 @@ Geef in het zoekvenster Resource groep in
 
 ![ResourceGroe](./assets/b52c17b676b69883eb728421a18bc46f.png)
 
-Klik op Maken
+Klik op Maken.
 
 ![ResourceGroe](./assets/fbfe568b86a3355d54e094b270a98848.png)
 
@@ -126,7 +124,7 @@ Klik vervolgens op Beoordelen en maken.
 
 De IoT Hub is een service met gedeeltelijke MQTT-ondersteuning (Message Queuing
 Telemetry Transport), waardoor standaard arduino of python programma voor mqtt
-niet kunnen overgenomen worden.
+niet kunnen gebruikt worden.
 
 ![IoT-Hub](./assets/23b02ae52b0e115566f4717acf665e34.png)
 
@@ -541,7 +539,7 @@ gegevens van de IoT-Hub raadplegen.
 
 ![Resultaat](./assets/7821e71ff651de530da4472d136ed640.png)
 
-### Raspberry pi simulator met node.js
+## Raspberry pi simulator met node.js
 
 Op volgende website kan gebruik gemaakt worden van een raspberry pi simulator.
 Als taal wordt gebruik gemaakt van node.js.
@@ -578,7 +576,7 @@ formaat door. Start de simulator door op “Run” te klikken.
 
 ![Apparaat toevoegen](./assets/51d23ddb72c94de8338a30ba76deea46.png)
 
-### Python op raspberry pi
+## Python op raspberry pi
 
 Bron:
 <https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-python>
