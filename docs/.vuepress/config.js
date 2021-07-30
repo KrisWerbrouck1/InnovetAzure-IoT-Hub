@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Innovet MQTT',
-  description: 'Innovet MQTT',
+  title: 'Innovet Azure IoT-Hub',
+  description: 'Innovet Azure IoT-Hub',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -10,7 +10,7 @@ module.exports = {
     sidebar: [
       ['/', 'Home'],
     ],
-    repo: 'https://github.com/KrisWerbrouck1/InnovetMQTT.git',
+    repo: 'https://github.com/KrisWerbrouck1/InnovetAzure-IoT-Hub.git',
     docsDir: 'docs',
     docsBranch: 'master'
   },
