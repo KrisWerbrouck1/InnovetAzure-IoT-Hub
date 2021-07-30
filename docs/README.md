@@ -1,6 +1,6 @@
 # Data van een IoT apparaat visualiseren via IoT hub en Node-RED
 
-# Doelstelling
+## Doelstelling
 
 -   Data bewaren in een MySQL database.
 
@@ -8,7 +8,7 @@
 
 Er wordt gebruik gemaakt van Azure IoT-Hub van Microsoft.
 
-# Inleiding
+## Inleiding
 
 Azure is de cloud computing omgeving van Microsoft. Bij de cloud denken we
 meestal aan het online bewaren van data zoals bij onedrive of googledrive.
@@ -120,7 +120,7 @@ Klik vervolgens op Beoordelen en maken.
 
 ![ResourceGroe](./assets/2def2ce6162b4121b9379a904c0aaf53.png)
 
-# IoT Hub 
+## IoT Hub 
 
 De IoT Hub is een service met gedeeltelijke MQTT-ondersteuning (Message Queuing
 Telemetry Transport), waardoor standaard arduino of python programma voor mqtt
@@ -128,7 +128,7 @@ niet kunnen gebruikt worden.
 
 ![IoT-Hub](./assets/23b02ae52b0e115566f4717acf665e34.png)
 
-# IoT Hub aanmaken
+### IoT Hub aanmaken
 
 Azure IoT-Hub is een cloud applicatie. Maak deze aan door in de portal te
 klikken op “+ Een resource maken”.
@@ -151,7 +151,7 @@ Maak de IoT-Hub aan door op “Beoordelen en maken” te klikken.
 
 ![IoT-Hub Aanmaken](./assets/f8f8fbff0086956224dd7735bd6e6bfa.png)
 
-## Een apparaat toevoegen
+### Een apparaat toevoegen
 
 Voeg een IoT-apparaat toe door in het linker menu voor IoT-apparaten te kiezen
 en vervolgens op “+ Nieuw” te klikken.
@@ -551,7 +551,7 @@ aangemaakt worden in Azure IoT-Hub.
 
 ![connectionString](./assets/a5f4b842bc69e07ff0ab9b69401f0c27.png)
 
-## Een apparaat toevoegen
+### Een apparaat toevoegen
 
 Voeg een IoT-apparaat toe door in het linker menu voor IoT-apparaten te kiezen
 en vervolgens op “+ Nieuw” te klikken.
@@ -879,7 +879,7 @@ geven in de browser.
 
 ![Resultaat](./assets/ba6e41eeae7e38b3adc36ab7fb7ef51d.png)
 
-## Node-RED:
+## Node-RED
 
 De data afkomstig van Azure IoT-Hub wordt opgehaald en doorgezonden via een http
 get-request naar het php bestand.
