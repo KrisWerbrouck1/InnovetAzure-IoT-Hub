@@ -1,7 +1,7 @@
 {
-  "name": "InnovetMQTT",
+  "name": "Innovet-Azure IoT-Hub",
   "version": "0.0.0",
-  "description": "MQTT",
+  "description": "Innovet-Azure IoT-Hub",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KrisWerbrouck1/InnovetMQTT.git"
+    "url": "git+https://github.com/KrisWerbrouck1/InnovetAzure-IoT-Hub.git"
   },
   "bugs": {
-    "url": "https://github.com/KrisWerbrouck1/InnovetMQTT.git/issues"
+    "url": "https://github.com/KrisWerbrouck1/InnovetAzure-IoT-Hub.git/issues"
   },
-  "homepage": "https://github.com/KrisWerbrouck1/InnovetMQTT.git#readme"
+  "homepage": "https://github.com/KrisWerbrouck1/InnovetAzure-IoT-Hub.git#readme"
 }
